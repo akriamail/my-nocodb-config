@@ -6,7 +6,7 @@
 本项目采用生产级双容器架构：
 - **App**: NocoDB (Node.js) - 运行在 8080 端口
 - **Database**: PostgreSQL 14 (Alpine) - 独立数据存储
-
+- 你需要手工修改.env.sample 成为.env 并编辑你想要的内容
 ## 🛠 快速管理命令
 
 ### 启动服务
