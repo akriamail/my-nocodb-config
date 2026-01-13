@@ -1,0 +1,4 @@
+noco_db_data/
+noco_app_data/
+*.log
+.DS_Store
