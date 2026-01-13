@@ -15,8 +15,7 @@ docker compose up -d
 ```
 ###STOP
 docker compose down
-```
-查看日志
+###查看日志
 ```Bash
 
 docker compose logs -f nocodb-app
