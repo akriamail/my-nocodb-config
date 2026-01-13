@@ -16,3 +16,23 @@ docker compose up -d
 ###STOP
 docker compose down
 ```
+查看日志
+```Bash
+
+docker compose logs -f nocodb-app
+```
+###更新版本
+Bash
+
+docker compose pull && docker compose up -d
+###文件结构
+docker-compose.yml: 容器编排配置文件
+
+.env: 环境变量及数据库密码 (已加入 .gitignore，不上传)
+
+noco_db_data/: PostgreSQL 数据库持久化目录
+
+noco_app_data/: NocoDB 静态资源及附件存储
+
+
+
